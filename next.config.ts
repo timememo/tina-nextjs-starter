@@ -38,7 +38,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/',
-        destination: '/blog',
+        destination: '/posts',
         permanent: true, // This tells Google that the blog is now your home
       },
     ]
