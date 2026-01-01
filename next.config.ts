@@ -34,6 +34,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/blog',
+        permanent: true, // This tells Google that the blog is now your home
+      },
+    ]
+  },
   async rewrites() {
     return [
       {
